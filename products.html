@@ -3,39 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ayurvedic Syrups & Oils | Rishi Ratna Ayurved</title>
-<meta name="description" content="Browse Rishi Ratna Ayurved products: Risho-Liv, Zymorish, FemOrish, Blood Purrish, Hemorish, Ortho Rish, Cofrish and Jorish Oil.">
+<title>Our Products | Rishi Ratna Ayurved</title>
+<meta name="description" content="Choose a category: Ayurvedic syrups or churan from Rishi Ratna Ayurved, Gopalganj, Bihar.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://rishiratnaayurved.netlify.app/products.html">
-<meta property="og:title" content="Ayurvedic Syrups & Oils | Rishi Ratna Ayurved">
-<meta property="og:description" content="Browse Rishi Ratna Ayurved products: Risho-Liv, Zymorish, FemOrish, Blood Purrish, Hemorish, Ortho Rish, Cofrish and Jorish Oil.">
+<link rel="canonical" href="https://rishiratnaayurveda.netlify.app/products.html">
+<meta property="og:title" content="Our Products | Rishi Ratna Ayurved">
+<meta property="og:description" content="Choose a category: Ayurvedic syrups or churan from Rishi Ratna Ayurved, Gopalganj, Bihar.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://rishiratnaayurved.netlify.app/products.html">
-<meta property="og:image" content="https://rishiratnaayurved.netlify.app/logo/rra.png">
+<meta property="og:url" content="https://rishiratnaayurveda.netlify.app/products.html">
+<meta property="og:image" content="https://rishiratnaayurveda.netlify.app/logo/rra.png">
 <link rel="icon" href="logo/rra.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 <header>
   <div class="wrap bar">
     <a class="brand" href="index.html"><img src="logo/rra.png" alt="Rishi Ratna Ayurved logo"><span>Rishi Ratna Ayurved</span></a>
-    <nav aria-label="Main menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html" class="active" aria-current="page">Products</a><a href="ayurveda.html">Ayurveda</a><a href="contact.html">Contact</a></nav>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav id="nav" aria-label="Main menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="products.html" class="active" aria-current="page">Products</a><a href="ayurveda.html">Ayurveda</a><a href="contact.html">Contact</a></nav>
   </div>
 </header>
 <main>
 <div class="hero small">
     <svg class="leaf l1" viewBox="0 0 200 200" aria-hidden="true"><path fill="#fff" d="M20 150C20 70 80 20 180 12c0 80-50 150-160 138z"/><path stroke="#17401f" stroke-width="3" fill="none" d="M26 144C70 100 110 62 170 22"/></svg>
     <svg class="leaf l2" viewBox="0 0 200 200" aria-hidden="true"><path fill="#fff" d="M20 150C20 70 80 20 180 12c0 80-50 150-160 138z"/></svg>
-    <div class="wrap in"><h1>Our products</h1><p>Ayurvedic syrups and oils.</p></div>
+    <div class="wrap in"><h1>Our products</h1><p>Choose a category to see the products.</p></div>
   </div>
   <section>
     <div class="wrap">
-      <p class="sub">Tap the button under any product to ask about its ingredients, use and price.</p>
-      <div class="grid" id="grid"></div>
+      <div class="choose">
+        <a class="choice" href="syrup.html">
+          <span class="ico" aria-hidden="true">&#129524;</span>
+          <h2>Syrups</h2>
+          <p>Ayurvedic syrups, swaras and herbal mixtures.</p>
+          <span class="btn green">View syrups</span>
+        </a>
+        <a class="choice" href="churan.html">
+          <span class="ico" aria-hidden="true">&#127807;</span>
+          <h2>Churan</h2>
+          <p>Ayurvedic churan (herbal powders).</p>
+          <span class="btn green">View churan</span>
+        </a>
+      </div>
     </div>
   </section>
 </main>
