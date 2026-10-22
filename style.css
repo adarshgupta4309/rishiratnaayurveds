@@ -382,3 +382,22 @@ footer .links a:hover{text-decoration:underline}
   .bn-track,.choice{transition:none}
   .choice:hover{transform:none}
 }
+
+/* ============ 22. HOME HERO (text banner) ============ */
+.hero.home{padding:72px 0 0}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.35fr .65fr;gap:36px;align-items:center}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);padding:4px 16px;border-radius:999px;font-weight:600;margin-bottom:16px}
+.hero.home h1{font-size:clamp(2.6rem,7vw,4.6rem);margin-bottom:10px}
+.hero .hero-hi{font-family:var(--serif);font-size:clamp(1.3rem,3vw,1.9rem);line-height:1.4;color:#ffe9a8;margin-bottom:14px}
+.hero-copy p{max-width:54ch}
+.hero-logo{justify-self:center;width:min(300px,100%);aspect-ratio:1/1;object-fit:contain;border-radius:50%;background:#fff;padding:10px;box-shadow:0 0 0 8px rgba(224,165,38,.55),0 0 60px rgba(224,165,38,.45)}
+.hero-facts{position:relative;list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:48px;padding-bottom:36px}
+.hero-facts li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:16px;padding:14px 12px;text-align:center;backdrop-filter:blur(4px)}
+.hero-facts b{display:block;font-family:var(--serif);font-weight:400;font-size:1.6rem;line-height:1.2;color:#ffe9a8}
+.hero-facts span{font-size:.95rem;color:#e7f3d9}
+@media(max-width:820px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero-logo{order:-1;width:130px;justify-self:start}
+  .hero-facts{grid-template-columns:repeat(2,1fr);margin-top:32px}
+}
+@media(max-width:600px){.hero.home{padding-top:44px}}
